@@ -19,8 +19,7 @@ export default StyleSheet.create({
     innerContainer: {
         borderRadius: 8,
         overflow: 'hidden'
-    }
-    ,
+    },
     image: {
         width: '100%',
         height: 200
@@ -30,18 +29,6 @@ export default StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 18,
         margin: 6
-    },
-    details: { 
-        flexDirection:'row',
-        justifyContent: 'center',
-        alignItems:'center',
-        padding: 6,
-        marginBottom: 6
-    },
-    detailItem: {
-        marginHorizontal: 4,
-        fontSize: 12,
-        fontFamily: 'Inter_600SemiBold'
     },
     buttonPressed: {
         opacity: 0.5
