@@ -3,9 +3,9 @@ import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import CategoriesScreen from './src/screens/Categories/CategoriesScreen';
 import MealsOverviewScreen from './src/screens/Overview/MealsOverviewScreen';
 import MealDetailScreen from './src/screens/Detail/MealDetailScreen';
+import TabNavigation from './src/navigation/TabNavigation';
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -33,7 +33,7 @@ export default function App() {
                 contentStyle: { backgroundColor: '#876986'}
               }
             }>
-          <Stack.Screen name='MealsCategories' component={CategoriesScreen} />
+          <Stack.Screen name='Drawer' component={TabNavigation} />
           <Stack.Screen name='MealsOverview'component={MealsOverviewScreen} />
           <Stack.Screen name='MealDetail' component={MealDetailScreen} />
         </Stack.Navigator>
