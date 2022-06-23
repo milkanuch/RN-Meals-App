@@ -4,7 +4,7 @@ import { Platform, StyleSheet } from "react-native";
 export default StyleSheet.create({
     gridItem: { 
         flex: 1,
-        margin: 12, 
+        margin: 10, 
         height: 150,
         borderRadius: 8,
         backgroundColor: '#fff',
