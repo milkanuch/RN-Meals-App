@@ -35,7 +35,7 @@ export default function MealDetailScreen({ route,navigation}) {
                 />
             }
         });
-    },[route.params.mealId,navigation,changeFavoriteStatusHander]);
+    },[mealId,navigation,changeFavoriteStatusHander]);
     
     return (
         <ScrollView style={styles.rootContainer}>
